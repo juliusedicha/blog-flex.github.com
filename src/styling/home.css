@@ -1,0 +1,62 @@
+/* Container for the home page */
+.home__page {
+  height: 100vh; /* Use 100vh for full viewport height */
+  display: flex;
+  flex-direction: column; /* Center items vertically and horizontally */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f39b9b; /* Add a background color */
+}
+
+/* Styling for the login message */
+.login__message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Styling for the login message headings */
+.login__message > h2 {
+  font-size: 2rem; /* Responsive font size */
+  margin: 0;
+}
+
+.login__message > h1 {
+  font-size: 3rem; /* Responsive font size */
+  line-height: 1.2;
+  font-weight: 900;
+  color: #333; /* Change text color */
+  text-decoration: underline;
+}
+
+/* Styling for the login message paragraph */
+.login__message > p {
+  padding: 15px 0;
+  line-height: 1.5;
+  font-size: 1rem; /* Responsive font size */
+  max-width: 80%; /* Responsive width */
+  text-align: center; /* Center text */
+}
+
+/* Styling for the login button */
+.login__button {
+  width: 100%; /* Take full width */
+  max-width: 300px; /* Limit maximum width for larger screens */
+  margin: 20px auto 0 auto; /* Add more spacing */
+  padding: 15px;
+  background-color: #333; /* Change button background color */
+  color: #fff; /* Change button text color */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem; /* Responsive font size */
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+/* Hover effect for the login button */
+.login__button:hover {
+  background-color: #555;
+}
